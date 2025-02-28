@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+
+# Cache files
+*.log
+*.sqlite3
+*.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS and Linux system files
+.DS_Store
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Celery worker logs
+celerybeat-schedule
+celerybeat.pid
+
+# Flask specific
+instance/
+config.py
+.env
+
+# Downloaded videos
+downloads/
+
+# Ignore VS Code and PyCharm project files
+.vscode/
+.idea/
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore Python egg info
+*.egg-info/
+dist/
+build/
+
+# Ignore pip's wheel directory
+wheels/
+
+# Ignore pytest cache
+.py
