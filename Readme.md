@@ -48,7 +48,7 @@ GET /download?url=https://www.youtube.com/watch?v=VIDEO_ID
 }
 ```
 
-#### 🎯 Retrieve a Downloaded Video
+#### 🎯 Retrieve a Downloaded Video (not implemented yet🚫)
 Once the video is downloaded, retrieve it from:
 ```bash
 GET /downloads/VIDEO_FILENAME
